@@ -1,0 +1,12 @@
+create libpython.a
+addlib ../cpython/cross-build/wasm32-emscripten/build/python/libpython3.14.a
+addlib ../cpython/cross-build/wasm32-emscripten/prefix/lib/libmpdec.a
+addlib ../cpython/cross-build/wasm32-emscripten/prefix/lib/libffi.a
+addlib ../cpython/cross-build/wasm32-emscripten/build/python/Modules/_hacl/libHacl_Hash_BLAKE2.a
+addlib ../cpython/cross-build/wasm32-emscripten/build/python/Modules/_hacl/libHacl_Hash_MD5.a
+addlib ../cpython/cross-build/wasm32-emscripten/build/python/Modules/_hacl/libHacl_Hash_SHA1.a
+addlib ../cpython/cross-build/wasm32-emscripten/build/python/Modules/_hacl/libHacl_Hash_SHA2.a
+addlib ../cpython/cross-build/wasm32-emscripten/build/python/Modules/_hacl/libHacl_Hash_SHA3.a
+addlib ../cpython/cross-build/wasm32-emscripten/build/python/Modules/expat/libexpat.a
+save
+end
